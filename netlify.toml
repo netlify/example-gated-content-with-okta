@@ -7,11 +7,13 @@
     to = "/:splat"
     status = 200
     conditions = {Role = ["*"]}
+    force = true
 
 [[redirects]]
     from = "/*"
     to = "/login"
     status = 200
+    force = true
 
 [template.environment]
   OKTA_BASE_URL = "base URL of your Okta account"
