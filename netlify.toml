@@ -6,7 +6,7 @@
     from = "/*"
     to = "/:splat"
     status = 200
-    conditions = {Role = ["*"]}
+    conditions = {Role = "*"}
     force = true
 
 [[redirects]]
