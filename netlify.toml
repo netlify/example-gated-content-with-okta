@@ -12,3 +12,9 @@
     from = "/*"
     to = "/login"
     status = 200
+
+[template.environment]
+  OKTA_BASE_URL = "base URL of your Okta account"
+  OKTA_API_TOKEN = "An Okta API Token"
+  OKTA_CLIENT_ID = "Client ID for your Okta app"
+  JWT_SECRET = "JWT Secret set on team or site level"
