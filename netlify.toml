@@ -1,0 +1,14 @@
+[Build]
+  Publish = "site"
+  Functions = "lambda"
+
+[[redirects]]
+    from = "/*"
+    to = "/:splat"
+    status = 200
+    Role = ["*"]
+
+[[redirects]]
+    from = "/*"
+    to = "/login"
+    status = 200
