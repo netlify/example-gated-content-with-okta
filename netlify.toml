@@ -6,7 +6,7 @@
     from = "/*"
     to = "/:splat"
     status = 200
-    Role = ["*"]
+    conditions = {Role = ["*"]}
 
 [[redirects]]
     from = "/*"
