@@ -2,10 +2,14 @@
 <html>
     <head>
         <title>Secret Site</title>
+
+        <script src="/.netlify/functions/verify-okta/okta.js"></script>
     </head>
     <body>
         <h1>This site is gated</h1>
 
         <p>Only users logged in with Okta can read this paragraph.</p>
+
+        <p><a href="#" class="okta-signout">Sign Out</a></p>
     </body>
 </html>
