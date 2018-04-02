@@ -19,7 +19,7 @@ Create a new API Token and keep it handy.
 
 Then click the deploy button above. Once you've authenticated with GitHub, you will be asked to fill in the following variables:
 
-* **OKTA_BASE_URL** this is the URL of your Okta account, ie: `https://dev-679417-admin.oktapreview.com`
+* **OKTA_BASE_URL** this is the URL of your Okta account, ie: `https://dev-679417.oktapreview.com`
 * **OKTA_API_TOKEN** this is the API token created above
 * **OKTA_CLIENT_ID** the client id for the Okta application created above
 * **JWT_SECRET** either the JWT_SECRET set globally for your Netlify team, or a long random token
